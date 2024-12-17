@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K7iK81XVi3Ap49yghgXj" name="Detailed_Architecture">
-    <mxGraphModel dx="3503" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2970" dy="3544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -579,6 +579,9 @@
         </mxCell>
         <mxCell id="2N7-qyUZDRO62LL4dCJT-10" value="Azure Purview" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Purview_Accounts.svg;" parent="oa4fXH4DdUcv1K2VR2Nh-72" vertex="1">
           <mxGeometry x="339.1400000000001" y="11" width="68" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ded5SRHNDjkcv13i90x_-1" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;By:Farnoush Zohourian&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;date:17/12/2024&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-1210" width="270" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
