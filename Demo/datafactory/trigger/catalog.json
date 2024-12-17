@@ -1,0 +1,25 @@
+{
+	"name": "catalog",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Ingest_CatalogPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/raw/blobs/catalog/",
+			"blobPathEndsWith": ".xml",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e00d68a5-3e1c-455c-9ce3-1e98b948e8ec/resourceGroups/DataArchitectureTask/providers/Microsoft.Storage/storageAccounts/datalakestoragetask",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

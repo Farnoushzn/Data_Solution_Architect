@@ -1,0 +1,9 @@
+{
+	"name": "datafactorytasknexmart",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "76611832-1f2b-4d49-b2b1-d12a18d3425e",
+		"tenantId": "5119c065-76e8-41de-a63b-08c51bc51f30"
+	}
+}

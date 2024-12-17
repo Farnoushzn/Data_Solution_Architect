@@ -1,0 +1,30 @@
+{
+	"name": "Ingest_PricePipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "priceNotebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/farnoush.zohourian@stud.uni-due.de/TransformPriceToProcessed"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksTask_linkedService",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-12-15T15:07:01Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

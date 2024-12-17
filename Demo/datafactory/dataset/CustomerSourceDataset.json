@@ -1,0 +1,74 @@
+{
+	"name": "CustomerSourceDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customer.csv",
+				"folderPath": "customer",
+				"container": "raw"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "customerID",
+				"type": "String"
+			},
+			{
+				"name": "User",
+				"type": "String"
+			},
+			{
+				"name": "SupplierID",
+				"type": "String"
+			},
+			{
+				"name": "Customername1",
+				"type": "String"
+			},
+			{
+				"name": "Customername2",
+				"type": "String"
+			},
+			{
+				"name": "Street",
+				"type": "String"
+			},
+			{
+				"name": "Postcode",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Email1",
+				"type": "String"
+			},
+			{
+				"name": "Email2",
+				"type": "String"
+			},
+			{
+				"name": "AdditionalInformation",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

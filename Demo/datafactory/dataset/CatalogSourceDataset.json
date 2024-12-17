@@ -1,0 +1,21 @@
+{
+	"name": "CatalogSourceDataset",
+	"properties": {
+		"description": "This dataset references the catalog data stored in the 'raw/catalog' folder in the Azure Blob Storage. The data format is XML and is used as the source for processing the catalog data.\n",
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "catalog_data.xml",
+				"folderPath": "catalog",
+				"container": "raw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
